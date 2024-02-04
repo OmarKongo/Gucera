@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Advising114.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/all.min.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .bg {
+    background-image: url(../images/AdminBG.jpg);
+    height: 100vh;
+  /* height: 100%;*/
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment:fixed
+}
+    </style>
+</head>
+<body class="bg">
+    <form id="form1" runat="server">
+        <div>
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <asp:Label CssClass="navbar-brand" runat="server" ID="name" ></asp:Label>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="AdminHome.aspx">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Advisors.aspx">Advisors</a>
+        </li>
+           <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Students
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+    <li><a class="dropdown-item" href="ViewStudents.aspx">View All Students</a></li>
+    <li><a class="dropdown-item" href="ActiveStudents.aspx">View Active Students</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="UpdateStatus.aspx">Update Status</a></li>
+  </ul>
+</li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="LinkStuAdv.aspx">Student x Advisor</a></li>
+              <li><a class="dropdown-item" href="Stundent_Course.aspx">Student x Course</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="LinkInstCourse.aspx">Instructor x Course</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    View
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+    <li><a class="dropdown-item" href="Transcript.aspx">Transcript</a></li>
+    <li><a class="dropdown-item" href="Payments.aspx">Payments</a></li>
+      <li><a class="dropdown-item" href="Installments.aspx">Installments</a></li>
+      <li><a class="dropdown-item" href="GraduationPlans.aspx">Graduation Plans</a></li>
+      <li><a class="dropdown-item" href="PendingRequests.aspx">Pending Requests</a></li> 
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="Instructor_Course.aspx">Course x Instructor</a></li>
+<li><a class="dropdown-item" href="Course_Semester.aspx">Semester x Course</a></li>
+  </ul>
+</li>
+                     <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Add/Delete
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+    <li><a class="dropdown-item" href="AddSem.aspx">Add Semester</a></li>
+    <li><a class="dropdown-item" href="AddCourse.aspx">Add Course</a></li>
+      <li><a class="dropdown-item" href="AddExam.aspx">Add Exam</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="DeleteCourse.aspx">Delete Course</a></li>
+      <li><a class="dropdown-item" href="DeleteSlots.aspx">Delete Slots</a></li>
+  </ul>
+</li>
+        
+      </ul>
+      <form class="d-flex">
+                       <a class="navbar-brand" runat="server" href="~/Login.aspx">
+    <asp:label id="label2" runat="server" style="margin-left:40px">LOG OUT</asp:label>
+</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
