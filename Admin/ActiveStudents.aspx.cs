@@ -29,5 +29,9 @@ namespace Advising114.Admin
         {
             return "hello user";
         }
+        protected int getID(int id)
+        {
+            return id;
+        }
     }
 }
