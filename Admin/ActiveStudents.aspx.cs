@@ -14,6 +14,7 @@ namespace Advising114.Admin
         string connStr = WebConfigurationManager.ConnectionStrings["Advising_System"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
+
             SqlConnection con = new SqlConnection(connStr);
             SqlCommand cmd = new SqlCommand("select * from view_Students", con);
             con.Open();
@@ -23,6 +24,10 @@ namespace Advising114.Admin
                 GridView1.DataSource = dr;
                 GridView1.DataBind();
             }
+        }
+        protected string Hello(int id)
+        {
+            return "hello user";
         }
     }
 }
