@@ -27,6 +27,7 @@ namespace Advising114.Admin
         }
         protected string Hello(int id)
         {
+            
             return "hello user";
         }
         protected int getID(int id)
