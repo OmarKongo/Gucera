@@ -1,7 +1,7 @@
-#Student Portal Website
+# Student Portal Website
 Welcome to the Student Portal Website repository! This project represents the development of a comprehensive student portal designed to streamline data management and provide an intuitive interface for both students and administrators.
 
-##Project Overview
+## Project Overview
 The Student Portal Website emphasizes robust data management, seamless backend operations, and a user-friendly front-end interface. Key technologies and methodologies employed in this project include:
 
 **Database Schema Design**: Utilized Enhanced Entity-Relationship Diagram (EERD) and relational schema for a well-structured and efficient database model.
@@ -13,8 +13,8 @@ Features
 **Course Enrollment**: Manage course enrollments and track student progress.
 **Administrative Tools**: Access a suite of tools for administrative tasks and data analysis.
 **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
-##Getting Started
-###Prerequisites
+## Getting Started
+### Prerequisites
 To run this project locally, ensure you have the following tools and technologies installed:
 
 ASP.NET
