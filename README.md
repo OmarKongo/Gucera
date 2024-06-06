@@ -1,4 +1,5 @@
-Student Portal Website
+
+
 Welcome to the Student Portal Website repository! This project encompasses the development of a comprehensive student portal, designed to facilitate efficient data management and provide an intuitive user interface for students and administrators.
 
 Project Description
