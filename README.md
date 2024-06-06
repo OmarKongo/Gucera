@@ -4,10 +4,10 @@ Welcome to the Student Portal Website repository! This project represents the de
 ## Project Overview
 The Student Portal Website emphasizes robust data management, seamless backend operations, and a user-friendly front-end interface. Key technologies and methodologies employed in this project include:
 
-**Database Schema Design**: Utilized Enhanced Entity-Relationship Diagram (EERD) and relational schema for a well-structured and efficient database model.
-**Backend Development**: Developed using ASP.NET and C# to ensure reliable and efficient server-side operations.
-**Data Management**: Leveraged Microsoft SQL Server for secure and efficient data storage and retrieval.
-**User Interface**: Built a responsive and intuitive UI using Bootstrap to enhance user experience across various devices and screen sizes.
+- **Database Schema Design**: Utilized Enhanced Entity-Relationship Diagram (EERD) and relational schema for a well-structured and efficient database model.
+ * **Backend Development**: Developed using ASP.NET and C# to ensure reliable and efficient server-side operations.
++ **Data Management**: Leveraged Microsoft SQL Server for secure and efficient data storage and retrieval.
+- **User Interface**: Built a responsive and intuitive UI using Bootstrap to enhance user experience across various devices and screen sizes.
 
 ## Features
 
