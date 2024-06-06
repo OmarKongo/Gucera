@@ -16,9 +16,11 @@ Features
 ## Getting Started
 ### Prerequisites
 To run this project locally, ensure you have the following tools and technologies installed:
-
+```
 ASP.NET
 C#
 Microsoft SQL Server
 Visual Studio
 Bootstrap
+```
+
