@@ -11,19 +11,19 @@ The Student Portal Website emphasizes robust data management, seamless backend o
 
 ## Features
 
-**Student Management**: Easily add, update, and delete student records.
-**Course Enrollment**: Manage course enrollments and track student progress.
-**Administrative Tools**: Access a suite of tools for administrative tasks and data analysis.
-**Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
+- **Student Management**: Easily add, update, and delete student records.
++ **Course Enrollment**: Manage course enrollments and track student progress.
+* **Administrative Tools**: Access a suite of tools for administrative tasks and data analysis.
+- **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
 
 ## Getting Started
 ### Prerequisites
 To run this project locally, ensure you have the following tools and technologies installed:
-```
-ASP.NET
-C#
-Microsoft SQL Server
-Visual Studio
-Bootstrap
-```
+
+1. ASP.NET
+2. C#
+3. Microsoft SQL Server
+4. Visual Studio
+5. Bootstrap
+
 
